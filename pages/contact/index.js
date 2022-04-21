@@ -12,7 +12,7 @@ export default function Contact() {
     },
     {
       title: 'Check out my Github!',
-      img: '/assets/github.png',
+      img: '/assets/github-logo.png',
       link: 'https://github.com/willmcb94',
     },
     {

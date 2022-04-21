@@ -21,7 +21,7 @@
 }
 
 .proj_text {
-  color: #f1faee;
+  color: #1d3557;
   font-size: 25px;
 }
 
@@ -31,7 +31,7 @@
   flex-direction: column;
 }
 .project_link {
-  color: #a8dadc;
+  color: #1d3557;
   font-weight: bold;
 }
 

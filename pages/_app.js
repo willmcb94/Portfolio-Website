@@ -12,8 +12,6 @@ function MyApp({ Component, pageProps }) {
         <style>
           @import
           url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-          @import
-          url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@400;700&display=swap');
         </style>
       </Head>
       <Header />
