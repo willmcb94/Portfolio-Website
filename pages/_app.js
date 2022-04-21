@@ -1,7 +1,26 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import Head from 'next/head';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <title>Will McBurney's portfolio</title>
+        <link rel="shortcut icon" href="/emoji.ico" />
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+          @import
+          url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@400;700&display=swap');
+        </style>
+      </Head>
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

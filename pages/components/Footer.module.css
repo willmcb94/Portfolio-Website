@@ -1,0 +1,28 @@
+.footer_container {
+  min-height: 40px;
+  max-height: 40px;
+  background-color: #1d3557;
+  color: #f1faee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* bottom: 0px;
+  position: sticky; */
+  width: 100%;
+  border-top: 3px solid #e63946;
+}
+
+.footer_text {
+  text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .footer_text {
+    font-size: 2vw;
+  }
+  .footer_container {
+    min-height: 40px;
+    max-height: 40px;
+  }
+}

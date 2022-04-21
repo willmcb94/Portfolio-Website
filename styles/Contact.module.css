@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 70vh;
+}
+
+.contact_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  grid-gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 70px 0px;
+  min-width: 70%;
+}
+
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1d3557;
+  min-height: 350px;
+  max-height: 350px;
+}
+.contact_card:hover {
+  cursor: pointer;
+}
+.contact_title {
+  text-align: center;
+  font-size: 50px;
+  color: #e63946;
+  width: 95%;
+  font-family: Teko, sans-serif;
+  margin: 0;
+}
+
+.contact_text {
+  font-family: 'Lobster', cursive;
+  color: #a8dadc;
+  font-size: 30px;
+}
