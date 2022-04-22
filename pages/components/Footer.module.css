@@ -1,7 +1,4 @@
 .footer_container {
-  /* min-height: 40px;
-  height: 40px;
-  max-height: 60px; */
   background-color: #1d3557;
   color: #f1faee;
   display: flex;
@@ -9,6 +6,7 @@
   align-items: center;
   justify-content: center;
   bottom: 0px;
+  margin-top: 0px;
   position: sticky;
   width: 100%;
   border-top: 5px solid #e63946;
