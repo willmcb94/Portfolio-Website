@@ -19,11 +19,20 @@ export default function Footer() {
       <span className={styles.footer_logos_container}>
         <Link href="https://github.com/willmcb94">
           <a className={styles.footer_logos} target="_blank">
-            <Image src="/assets/github.png" width={25} height={25} />
+            <Image
+              className={styles.footer_img}
+              src="/assets/github.png"
+              width={25}
+              height={25}
+            />
           </a>
         </Link>
         <Link href="https://www.linkedin.com/in/will-mcburney-a114b7153">
-          <a className={styles.footer_logos} target="_blank">
+          <a
+            className={styles.footer_img}
+            className={styles.footer_logos}
+            target="_blank"
+          >
             <Image src="/assets/linkedin-BW.png" width={25} height={25} />
           </a>
         </Link>

@@ -1,6 +1,7 @@
 .footer_container {
   min-height: 40px;
-  max-height: 40px;
+  height: 40px;
+  max-height: 60px;
   background-color: #1d3557;
   color: #f1faee;
   display: flex;
@@ -22,7 +23,6 @@
 }
 
 .footer_logos_container {
-  width: 6%;
   min-height: 40px;
   display: flex;
   align-items: center;
@@ -37,17 +37,32 @@
 
 @media only screen and (max-width: 750px) {
   .footer_text {
-    font-size: 2.5vw;
+    font-size: 15px;
     letter-spacing: 0.5px;
   }
   .footer_container {
     min-height: 40px;
     max-height: 40px;
   }
+  .footer_logos {
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
+}
+.styles.footer_img {
+  min-width: 25px;
 }
 
 @media only screen and (max-width: 400px) {
   .footer_logos {
+    margin-top: 5px;
     margin-bottom: 4px;
+    margin-right: 4px;
+  }
+  .footer_text {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    margin-left: 4px;
   }
 }
