@@ -1,7 +1,7 @@
 .footer_container {
-  min-height: 40px;
+  /* min-height: 40px;
   height: 40px;
-  max-height: 60px;
+  max-height: 60px; */
   background-color: #1d3557;
   color: #f1faee;
   display: flex;
@@ -20,6 +20,7 @@
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
+  margin: 0;
 }
 
 .footer_logos_container {
@@ -32,7 +33,6 @@
 
 .footer_logos {
   margin-left: 4px;
-  /* margin-bottom: 3px; */
 }
 
 @media only screen and (max-width: 750px) {
@@ -45,9 +45,9 @@
     max-height: 40px;
   }
   .footer_logos {
-    margin-top: 5px;
-    margin-bottom: 4px;
-    margin-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
   }
 }
 .styles.footer_img {
@@ -56,9 +56,9 @@
 
 @media only screen and (max-width: 400px) {
   .footer_logos {
-    margin-top: 5px;
-    margin-bottom: 4px;
-    margin-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 4px;
   }
   .footer_text {
     font-size: 10px;

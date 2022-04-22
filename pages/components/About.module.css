@@ -39,7 +39,6 @@
   overflow: hidden;
   position: relative;
   border-radius: 300px;
-  /* border: 3px solid #d8e2dc; */
 }
 .img_container {
   height: 100%;
@@ -77,15 +76,24 @@
   width: 100%;
   display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
-  height: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  margin-bottom: 20px;
   grid-gap: 50px;
 }
 .skills_indiv_container {
-  background-color: red;
+  color: #e63946;
+  font-size: 20px;
 }
 .skills_indiv_title {
   font-size: 25px;
+  color: #1d3557;
+  margin-bottom: 0;
+}
+
+.skills_list {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
 }
 
 @media only screen and (max-width: 950px) {
@@ -111,5 +119,11 @@
   }
   .about_text {
     font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .skills_text_container {
+    justify-content: center;
   }
 }

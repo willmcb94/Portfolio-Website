@@ -52,13 +52,7 @@ export default function About() {
           <div className={styles.skills_text_container}>
             <article className={styles.skills_indiv_container}>
               <h4 className={styles.skills_indiv_title}>Frontend</h4>
-            </article>
-            <article className={styles.skills_indiv_container}>
-              <h4 className={styles.skills_indiv_title}>Backend</h4>
-            </article>
-            <article className={styles.skills_indiv_container}>
-              <h4 className={styles.skills_indiv_title}>Other</h4>
-              <ul>
+              <ul className={styles.skills_list}>
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>React Native</li>
@@ -67,6 +61,26 @@ export default function About() {
                 <li>CSS3</li>
                 <li>Node.js</li>
                 <li>Jest</li>
+              </ul>
+            </article>
+            <article className={styles.skills_indiv_container}>
+              <h4 className={styles.skills_indiv_title}>Backend</h4>
+              <ul className={styles.skills_list}>
+                <li>Express</li>
+                <li>Postgres-sql</li>
+                <li>SQL</li>
+                <li>Node.js</li>
+                <li>Firebase</li>
+              </ul>
+            </article>
+            <article className={styles.skills_indiv_container}>
+              <h4 className={styles.skills_indiv_title}>Additional</h4>
+              <ul className={styles.skills_list}>
+                <li>Git</li>
+                <li>Agile development</li>
+                <li>Kanban board</li>
+                <li>Trello</li>
+                <li>Miro</li>
               </ul>
             </article>
           </div>
