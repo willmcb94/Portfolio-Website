@@ -38,10 +38,7 @@
     font-size: 15px;
     letter-spacing: 0.5px;
   }
-  .footer_container {
-    min-height: 40px;
-    max-height: 40px;
-  }
+
   .footer_logos {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -52,6 +49,11 @@
   min-width: 25px;
 }
 
+@media only screen and (max-width: 545px) {
+  .footer_container {
+    padding: 5px 0px 5px 0px;
+  }
+}
 @media only screen and (max-width: 400px) {
   .footer_logos {
     padding-top: 5px;
