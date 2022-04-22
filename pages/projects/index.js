@@ -28,6 +28,10 @@ export default function Projects() {
     <div className={styles.main_container}>
       <Head>
         <title>Will McBurneys Portfolio - Projects</title>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+        </style>
       </Head>
       <main className={styles.projects_container}>
         {projects.map((project) => {

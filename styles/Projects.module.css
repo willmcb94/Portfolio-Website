@@ -7,6 +7,7 @@
   grid-gap: 50px;
   align-items: center;
   width: 85%;
+  font-family: Akshar, sans-serif;
 }
 
 .main_container {
@@ -18,7 +19,6 @@
 }
 @media only screen and (max-width: 645px) {
   .projects_container {
-    margin-top: 50px;
     margin-bottom: 50px;
   }
 }

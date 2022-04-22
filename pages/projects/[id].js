@@ -18,7 +18,7 @@ const data = [
     title: 'NC-News Frontend',
     url: 'https://github.com/willmcb94/nc-news',
     about:
-      'This is a website built using my previously created backend api. The website was created with React, HTML and CSS for the frontend. It displays various news articles which can be sorted and filtered. Users can like/dislike articles as well as comment on them and delete their own comments, all of which will update the backend database accordingly. The web app has been hosted with Netlify ',
+      'This is a website built using my previously created backend api. The website was created with React, HTML and CSS for the frontend. It displays various news articles which can be sorted and filtered. Users can like/dislike articles as well as comment on them and delete their own comments, all of which will update the backend database accordingly. The web app has been hosted with Netlify.',
     image: '/../public/assets/NC-News-frontend.png',
     demo: 'https://will-mcb-nc-news.netlify.app/',
     video: 'https://www.youtube.com/embed/5UWyAZqw8fI',
@@ -68,7 +68,7 @@ export default function ProjectPage({ proj }) {
           <h2 className={styles.proj_title}>{proj.title}</h2>
           <p className={styles.proj_text}>{proj.about}</p>
           <div className={styles.links_container}>
-            <h3>Github</h3>
+            <h3 className={styles.links_title}>Github</h3>
             <Link href={proj.url}>
               <a target="_blank" className={styles.project_link}>
                 {proj.url}
@@ -76,7 +76,7 @@ export default function ProjectPage({ proj }) {
             </Link>
             {proj.demo ? (
               <>
-                <h3>Hosted</h3>
+                <h3 className={styles.links_title}>Hosted</h3>
                 <Link href={proj.demo}>
                   <a target="_blank" className={styles.project_link}>
                     {proj.demo}

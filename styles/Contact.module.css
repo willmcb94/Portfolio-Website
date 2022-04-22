@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-around;
   min-height: 70vh;
+  font-family: Akshar, sans-serif;
 }
 
 .contact_container {
@@ -33,12 +34,23 @@
   font-size: 50px;
   color: #e63946;
   width: 95%;
-  font-family: Teko, sans-serif;
+  letter-spacing: 0;
   margin: 0;
 }
 
 .contact_text {
-  font-family: 'Lobster', cursive;
   color: #1d3557;
+  font-weight: 500;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 645px) {
+  .contact_title {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .contact_text {
+    font-size: 20px;
+  }
 }

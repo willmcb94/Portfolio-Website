@@ -27,9 +27,7 @@ export default function Contact() {
         <title>Will McBurney's portfolio - Contact</title>
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-          @import
-          url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+          url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
         </style>
       </Head>
 

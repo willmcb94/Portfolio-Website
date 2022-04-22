@@ -1,9 +1,17 @@
 import styles from './About.module.css';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function About() {
   return (
     <div className={styles.about_container}>
+      <Head>
+        <title>Will McBurney - About</title>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+        </style>
+      </Head>
       <div className={styles.text_container}>
         <h2 className={styles.about_title}>About me</h2>
         <p className={styles.about_text}>

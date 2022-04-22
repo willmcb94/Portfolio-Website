@@ -10,19 +10,44 @@
   bottom: 0px;
   position: sticky;
   width: 100%;
-  border-top: 3px solid #e63946;
+  border-top: 5px solid #e63946;
 }
 
 .footer_text {
   text-align: center;
+  font-family: Akshar, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.footer_logos_container {
+  width: 6%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 4px;
+}
+
+.footer_logos {
+  margin-left: 4px;
+  /* margin-bottom: 3px; */
 }
 
 @media only screen and (max-width: 750px) {
   .footer_text {
     font-size: 2vw;
+    letter-spacing: 0.5px;
   }
   .footer_container {
     min-height: 40px;
     max-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer_logos {
+    margin-bottom: 4px;
   }
 }

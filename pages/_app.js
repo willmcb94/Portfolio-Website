@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/emoji.ico" />
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+          url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
         </style>
       </Head>
       <Header />
