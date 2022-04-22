@@ -9,7 +9,7 @@
 
 .contact_container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
   grid-gap: 25px;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 645px) {
   .contact_title {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 50px;
   }

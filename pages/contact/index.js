@@ -35,9 +35,9 @@ export default function Contact() {
       <div className={styles.contact_container}>
         {contacts.map((contact) => {
           return (
-            <Link href={contact.link}>
+            <Link key={`${contact.title}1`} href={contact.link}>
               <a target="_blank">
-                <article className={styles.contact_card}>
+                <article key={contact.title} className={styles.contact_card}>
                   <h3 className={styles.contact_text}>{contact.title}</h3>
                   <Image src={contact.img} width={200} height={200} />
                 </article>

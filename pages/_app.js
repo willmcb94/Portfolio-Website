@@ -9,10 +9,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Will McBurney's portfolio</title>
         <link rel="shortcut icon" href="/emoji.ico" />
-        <style>
-          @import
-          url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
-        </style>
       </Head>
       <Header />
       <Component {...pageProps} />
