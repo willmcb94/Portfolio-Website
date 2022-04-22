@@ -77,8 +77,8 @@ export default function About() {
               <h4 className={styles.skills_indiv_title}>Additional</h4>
               <ul className={styles.skills_list}>
                 <li>Git</li>
-                <li>Agile development</li>
-                <li>Kanban board</li>
+                <li>Agile</li>
+                <li>Kanban</li>
                 <li>Trello</li>
                 <li>Miro</li>
               </ul>
