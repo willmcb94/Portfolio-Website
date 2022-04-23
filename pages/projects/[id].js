@@ -91,10 +91,11 @@ export default function ProjectPage({ proj }) {
             width="560"
             height="315"
             src={proj.video}
-            title="YouTube video player"
+            title={`Demo of my ${proj.title} project`}
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen="true"
+            aria-hidden="true"
           ></iframe>
         </div>
       </main>
