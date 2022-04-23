@@ -24,6 +24,7 @@ export default function Footer() {
               src="/assets/github.png"
               width={25}
               height={25}
+              alt="Github logo"
             />
           </a>
         </Link>
@@ -33,7 +34,12 @@ export default function Footer() {
             className={styles.footer_logos}
             target="_blank"
           >
-            <Image src="/assets/linkedin-BW.png" width={25} height={25} />
+            <Image
+              src="/assets/linkedin-BW.png"
+              width={25}
+              height={25}
+              alt="Linkedin logo"
+            />
           </a>
         </Link>
       </span>

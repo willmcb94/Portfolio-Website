@@ -9,16 +9,19 @@ export default function Contact() {
       title: 'Connect with me on Linkedin!',
       img: '/assets/linkedin.png',
       link: 'https://www.linkedin.com/in/will-mcburney-a114b7153',
+      alt: 'Linkedin logo',
     },
     {
       title: 'Check out my Github!',
       img: '/assets/github-logo.png',
       link: 'https://github.com/willmcb94',
+      alt: 'Github logo',
     },
     {
       title: 'Drop me an Email!',
       img: '/assets/email.png',
       link: 'mailto:willmcburney94@googlemail.com',
+      alt: 'Email icon',
     },
   ];
   return (
@@ -39,7 +42,12 @@ export default function Contact() {
               <a target="_blank">
                 <article key={contact.title} className={styles.contact_card}>
                   <h3 className={styles.contact_text}>{contact.title}</h3>
-                  <Image src={contact.img} width={200} height={200} />
+                  <Image
+                    src={contact.img}
+                    width={200}
+                    height={200}
+                    alt={contact.alt}
+                  />
                 </article>
               </a>
             </Link>
