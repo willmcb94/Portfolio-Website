@@ -12,8 +12,8 @@ export default function ProjectCard({ id, title, type, tech }) {
         </article>
         <Image
           src={tech}
-          width={350}
-          height={350}
+          width={300}
+          height={300}
           alt="Collage, using logos of tech used"
         />
       </div>
