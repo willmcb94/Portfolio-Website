@@ -1,6 +1,7 @@
 import styles from './About.module.css';
 import Image from 'next/image';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -25,7 +26,7 @@ export default function About() {
             <br></br>
             Driven by this passion to become a developer, I spent more evenings
             than not buried in code, restlessly itching to leave my stable sales
-            career behind. And after graduating from the Northcoders Full Stack
+            career behind. And after graduating from the Northcoders Fullstack
             Developer Bootcamp, I’m now ready for my first role.<br></br>
             <br></br>
             I’d love to land in a company with a culture of learning, where I
@@ -33,8 +34,11 @@ export default function About() {
             myself. The challenge excites me - as does the ability to craft
             great code that really makes a difference.<br></br>
             <br></br>
-            Want to know more? Please don’t hesitate to get in touch about any
-            opportunities you may have for an eager junior developer.
+            Want to know more? Please don’t hesitate to{' '}
+            <Link href="/contact">
+              <a className={styles.get_in_touch}>get in touch</a>
+            </Link>{' '}
+            about any opportunities you may have for an eager junior developer.
           </p>
         </article>
         <div className={styles.img_container}>

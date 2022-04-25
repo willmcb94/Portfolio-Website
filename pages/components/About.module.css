@@ -96,6 +96,10 @@
   padding: 0;
 }
 
+.get_in_touch {
+  color: #e63946;
+}
+
 @media only screen and (max-width: 950px) {
   .about_container {
     flex-direction: column-reverse;
