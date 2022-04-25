@@ -34,9 +34,10 @@ export default function Projects() {
         </style>
       </Head>
       <main className={styles.projects_container}>
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
             <ProjectCard
+              key={`${project.title} ${index}`}
               id={project.id}
               title={project.title}
               type={project.type}

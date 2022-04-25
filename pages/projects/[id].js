@@ -92,9 +92,9 @@ export default function ProjectPage({ proj }) {
             height="315"
             src={proj.video}
             title={`Demo of my ${proj.title} project`}
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen="true"
+            allowFullScreen={true}
             aria-hidden="true"
           ></iframe>
         </div>

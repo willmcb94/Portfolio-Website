@@ -49,7 +49,7 @@
   width: 30%;
   display: flex;
   justify-content: space-between;
-  font-size: 2.2vw;
+  font-size: 30px;
   font-weight: 300;
   font-family: Akshar, sans-serif;
 }
@@ -59,7 +59,13 @@
   color: #e63946;
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 1250px) {
+  .header_nav {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .header_content_container {
     flex-direction: column;
   }
