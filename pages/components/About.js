@@ -19,7 +19,7 @@ export default function About() {
           <p className={styles.about_text}>
             Based in the vibrant (albeit rainy) city of Manchester, I matured
             around the same time that the internet did - watching it evolve in
-            astonishing ways over the past 20 odd years.<br></br>
+            astonishing ways over the past 20 or so years.<br></br>
             <br></br>
             Having always been struck by emerging web innovations, I became
             motivated to work with the technologies that come next…<br></br>
